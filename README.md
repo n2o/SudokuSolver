@@ -46,7 +46,9 @@ The output file is again the same format as the input file, for example:
 
 ## How to use
 
-The Solver can be used as follows:
+The solver provides the predicate solve_sudoku/2
+
+solve_sudoku(+InputFile, -SolvedSudoku)
 
 ```
 > swipl -l solver.pl
